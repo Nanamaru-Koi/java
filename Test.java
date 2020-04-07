@@ -2,6 +2,11 @@ public class Test {
 	public static void main( String[] args ){
 		//konnnitiha
 		
-		System.out.println("Hello World");
+		print("Hello World");
+	}
+	
+	//new function
+	public static void print(String str){
+		System.out.println(str);
 	}
 }
